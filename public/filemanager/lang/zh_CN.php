@@ -1,0 +1,62 @@
+<?php
+if(isset($_GET['o'])){
+	define('lang_Select','');
+}else{
+	define('lang_Select','选择');
+}
+define('lang_Erase','删除');
+define('lang_Open','打开');
+define('lang_Confirm_del','你确定要删除这个文件？');
+define('lang_All','全部');
+define('lang_Files','文件');
+define('lang_Images','图片');
+define('lang_Archives','压缩包');
+define('lang_Error_Upload','上传的文件超过允许的最大尺寸');
+define('lang_Error_extension','文件扩展名是不允许的');
+define('lang_Upload_file','上传');
+define('lang_Filters','过滤');
+define('lang_Videos','视频');
+define('lang_Music','音乐');
+define('lang_New_Folder','新文件夹');
+define('lang_Folder_Created','正确创建文件夹');
+define('lang_Existing_Folder','现有的文件夹');
+define('lang_Confirm_Folder_del','确认删除的此文件夹中的所有文件？');
+define('lang_Return_Files_List','返回到文件列表');
+define('lang_Preview','预览');
+define('lang_Download','下载');
+define('lang_Insert_Folder_Name','填写文件夹名称：');
+define('lang_Root','根');
+define('lang_Rename','重命名');
+define('lang_Back','后面');
+define('lang_View','视图');
+define('lang_View_list','列表视图');
+define('lang_View_columns_list','多列视图');
+define('lang_View_boxes','缩略图');
+define('lang_Toolbar','工具栏');
+define('lang_Actions','操作');
+define('lang_Rename_existing_file','该文件已经存在');
+define('lang_Rename_existing_folder','该文件夹已经存在');
+define('lang_Empty_name','这个名字是空的');
+define('lang_Text_filter','文本过滤');
+define('lang_Swipe_help','切换名称的文件/文件夹选项显示');
+define('lang_Upload_base','基本上传');
+define('lang_Upload_java','JAVA 上传 (大尺寸文件)');
+define('lang_Upload_java_help',"如果在Java Applet不加载，1。确保你已经安装Java，否则<a href='http://java.com/en/download/'>[下载链接] </ A> 2。确保您的防火墙没有阻止");
+define('lang_Upload_base_help',"拖放文件或点击上方的区域（现代浏览器），选择文件（多个）。当上传完成后，请单击“文件列表”按钮返回。");
+define('lang_Type_dir','目录');
+define('lang_Type','类型');
+define('lang_Dimension','尺寸');
+define('lang_Size','大小');
+define('lang_Date','日期');
+define('lang_Filename','文件名');
+define('lang_Operations','操作');
+define('lang_Date_type','y-m-d');
+define('lang_OK','确认');
+define('lang_Cancel','取消');
+define('lang_Sorting','排序');
+define('lang_Show_url','显示 URL');
+define('lang_Extract','这里提取');
+define('lang_File_info','文件信息');
+define('lang_Edit_image','修改图片');
+
+?>
